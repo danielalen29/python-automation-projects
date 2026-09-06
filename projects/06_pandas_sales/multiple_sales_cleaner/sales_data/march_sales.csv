@@ -1,0 +1,5 @@
+OrderID,Product,Category,Quantity,Price,Country
+1009,Monitor,Displays,1,118,Sweden
+1010,Mouse,Accessories,4,16,Norway
+1011,Keyboard,Accessories,1,42,Germany
+1012,Webcam,Accessories,2,55,Sweden

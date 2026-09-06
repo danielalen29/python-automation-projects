@@ -1,0 +1,5 @@
+OrderID,Product,Category,Quantity,Price,Country
+1001,Mouse,Accessories,2,15,Sweden
+1002,Keyboard,Accessories,1,40,Sweden
+1003,Monitor,Displays,2,120,Germany
+1004,Laptop,Computers,1,850,Sweden

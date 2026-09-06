@@ -1,0 +1,22 @@
+OrderID,Product,Category,Quantity,Price,Country
+1001,Mouse,Accessories,2,15,Sweden
+1002, keyboard ,accessories,1,40,sweden
+1003,MOUSE,Accessories,3,15,Germany
+1004,Monitor,Displays,2,120,Sweden
+1005,Keyboard,Accessories,2,40,Germany
+1006,Laptop,Computers,1,850,Sweden
+1007,monitor, displays ,2,125,Norway
+1008,Mouse,Accessories,4,,Sweden
+1009,Laptop,Computers,2,820,germany
+1010,Webcam,Accessories,3,55,Norway
+1011,Keyboard,Accessories,,42,Sweden
+1012,Monitor,Displays,1,118,Germany
+1013, webcam ,Accessories,2,55,Sweden
+1014,Laptop,Computers,1,,Norway
+1015,Mouse,Accessories,2,16,norway
+1016,Keyboard,Accessories,two,40,Sweden
+1017,Monitor,Displays,1,$120,Sweden
+1018,Mouse,Accessories,2,15,Sweden
+1018,Mouse,Accessories,2,15,Sweden
+1019,,Accessories,2,20,Germany
+1020,Headset, accessories ,3,35, SWEDEN 

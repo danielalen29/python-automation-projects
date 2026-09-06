@@ -1,0 +1,5 @@
+OrderID,Product,Category,Quantity,Price,Country
+1013,Laptop,Computers,1,840,Norway
+1014,Mouse,Accessories,2,15,Sweden
+1015,Monitor,Displays,2,125,Germany
+1016,Keyboard,Accessories,3,40,Sweden
