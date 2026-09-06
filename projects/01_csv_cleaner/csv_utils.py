@@ -6,7 +6,11 @@ import csv
 def load_csv(
     csv_to_clean: Path,
 ) -> list[dict[str, str]]:
-    with open(csv_to_clean, newline='', encoding='utf-8') as infile:
+    with open(
+        csv_to_clean,
+        newline='',
+        encoding='utf-8',
+    ) as infile:
         rows = list(csv.DictReader(infile))
 
     return rows
@@ -43,7 +47,12 @@ def save_cleaned_csv(
     cleaned_rows: list[dict],
     rows: list[dict[str, str]],
 ) -> None:
-    with open(csv_cleaned, 'w', newline='', encoding='utf-8') as outfile:
+    with open(
+        csv_cleaned,
+        'w',
+        newline='',
+        encoding='utf-8',
+    ) as outfile:
         writer = csv.DictWriter(outfile, fieldnames=required_fields)
         writer.writeheader()
         writer.writerows(cleaned_rows)
