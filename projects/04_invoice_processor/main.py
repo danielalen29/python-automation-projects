@@ -15,8 +15,14 @@ def main():
         'receipt_': processed_folder / 'Receipts'
     }
 
-    file_utils.create_folders(destinations)
-    file_utils.move_files(data_folder, destinations, other_files_destination)
+    file_utils.create_folders(
+        destinations=destinations,
+    )
+    file_utils.move_files(
+        data_folder=data_folder,
+        destinations=destinations,
+        other_files_destination=other_files_destination,
+    )
 
 if __name__ == '__main__':
     main()
