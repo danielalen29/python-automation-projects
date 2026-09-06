@@ -12,7 +12,9 @@ def main():
 
     destination_folders = [txt_folder, jpg_folder, pdf_folder]
 
-    file_utils.create_folders(destination_folders)
+    file_utils.create_folders(
+        destination_folders=destination_folders,
+    )
 
     suffix_destination = {
         '.txt': txt_folder,
