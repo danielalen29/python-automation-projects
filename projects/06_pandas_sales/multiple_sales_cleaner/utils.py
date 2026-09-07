@@ -17,7 +17,7 @@ def group_files(
 
 def concatenate_files(
     csv_files: list[Path],
-):
+) -> pandas.DataFrame:
     if not csv_files:
         raise ValueError('No csv files found')
 
