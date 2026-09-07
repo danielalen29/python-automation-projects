@@ -35,16 +35,16 @@ def clean_csv_save_worksheets(
     )
 
     missing_rows.to_csv(
-        'projects/06_pandas_sales/sales_report/sales_report_csv/missing_values.csv',
+        csv_files_folder / 'missing_values.csv',
         index=True,
         index_label='SourceIndex',
     )
     clean_dataframe.to_csv(
-        'projects/06_pandas_sales/sales_report/sales_report_csv/cleaned_sales.csv',
+        csv_files_folder / 'cleaned_sales.csv',
         index=False,
     )
     summary_dataframe.to_csv(
-        'projects/06_pandas_sales/sales_report/sales_report_csv/sales_summary.csv',
+        csv_files_folder / 'sales_summary.csv',
         index=False,
     )
 
