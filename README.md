@@ -132,3 +132,9 @@ Skills:
 ## Purpose
 These projects were built to develop practical Python automation skills for real-world tasks involving files,
 CSV data, Excel reports, and APIs.
+
+## How To Run
+1. Clone the repository.
+2. Install the required packages.
+3. Open the project folder you want to run.
+4. Run the corresponding main.py file.
